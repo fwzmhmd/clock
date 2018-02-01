@@ -42,4 +42,22 @@ body {
 	background:black;
 	position: absolute;
 	top:50%;
+	border-radius: 10px;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: all 0.5s;
+}
+
+.second-hand {
+	background: red;
+	height:2px;
+	z-index: 4;
+	top: 50%;
+	width: 49%;
+	left: 1%;
+}
+
+.hour-hand {
+	width: 30%;
+	left: 20%;
 }
